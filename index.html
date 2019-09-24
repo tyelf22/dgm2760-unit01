@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="mystyles.css" type="text/css" rel="stylesheet"></link>
+    <link href="https://fonts.googleapis.com/css?family=Spectral&display=swap" rel="stylesheet">
+    <title>Al's Sports Lounge</title>
+</head>
+<body>
+    <header class="darken">
+        <h1 id="company"></h1>
+        <h2 id="slogan"></h2>
+    </header>
+    <main>
+            <h2>Skills Developed</h2>
+        <ul>
+            <li>Build webpage with a header, main, and footer</li>
+            <li>Find and resize an image to be loaded into the header using CSS</li>
+            <li>Use javascript to insert text into an HTML element</li>
+            <li>Use javascript to insert the current date into a webpage</li>
+            <li>Style a page using CSS</li>
+            <li>Push code to a Github repo</li>
+            <li>Deploy a webpage using netlify</li>
+        </ul>
+
+        <hr>
+        <h3>Today is:
+
+            <script>
+
+                let theDate = new Date();
+                document.write(theDate.toLocaleDateString());
+
+            </script>
+
+        </h3>
+
+        <p id="greeting"></p>
+    </main>
+    <footer>
+        <p>Assignment for DGM2760 by Tyson Elfors</p>
+    </footer>
+    <script type="text/javascript" src="./main.js"></script>
+</body>
+</html>
